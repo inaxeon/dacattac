@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 46f2fcdc-4e3f-40f2-9a04-c2eef6aad21c)
+
+  (paper "A4")
+
+  (title_block
+    (title "${TITLE}")
+    (date "${DATE}")
+    (rev "${VERSION}")
+    (company "${COPYRIGHT}")
+    (comment 1 "${LICENSE}")
+    (comment 2 "AUDIO OUTPUT")
+  )
+
+  (lib_symbols
+  )
+
+)

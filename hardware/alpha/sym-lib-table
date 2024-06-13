@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS61170")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/TPS61170DRVR.kicad_sym")(options "")(descr ""))
+  (lib (name "AD768")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/AD768.kicad_sym")(options "")(descr ""))
+  (lib (name "KJL_ADJ")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/KJL_ADJ.kicad_sym")(options "")(descr ""))
+  (lib (name "mcp47febxx")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/mcp47febxx.kicad_sym")(options "")(descr ""))
+)

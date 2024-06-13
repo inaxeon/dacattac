@@ -1,0 +1,73 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 487245ca-0c1f-4f9d-bc99-20c8f558090f)
+
+  (paper "A4")
+
+  (title_block
+    (title "${TITLE}")
+    (date "${DATE}")
+    (rev "${VERSION}")
+    (company "${COPYRIGHT}")
+    (comment 1 "${LICENSE}")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 121.285 78.74) (size 54.61 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 80e17ed4-cb43-4c12-a09c-75e0f0ffaba0)
+    (property "Sheetname" "audio" (at 121.285 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch" (at 121.285 109.1696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "dacattac-alpha"
+        (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 64.135 78.74) (size 54.61 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b4bbface-dd1a-4873-ab51-f35caad404be)
+    (property "Sheetname" "video" (at 64.135 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "video.kicad_sch" (at 64.135 109.1696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "dacattac-alpha"
+        (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 178.435 78.74) (size 54.61 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b8114b5f-896b-4ea4-b003-c1721b486c01)
+    (property "Sheetname" "power" (at 178.435 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 178.435 109.1696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "dacattac-alpha"
+        (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
