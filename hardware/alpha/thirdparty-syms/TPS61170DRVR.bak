@@ -48,7 +48,7 @@
         (name "FB" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -17.78 -1.27 0) (length 5.08)
+      (pin output line (at -17.78 -10.16 0) (length 5.08)
         (name "COMP" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
