@@ -7,4 +7,6 @@
   (lib (name "TPS63700")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/TPS63700DRCT.kicad_sym")(options "")(descr ""))
   (lib (name "+3.3v_aud")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/+3.3v_aud.kicad_sym")(options "")(descr ""))
   (lib (name "+3.3v_hackrf")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/+3.3v_hackrf.kicad_sym")(options "")(descr ""))
+  (lib (name "74lvc16t245")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/74lvc16t245.kicad_sym")(options "")(descr ""))
+  (lib (name "74lvc1t45")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/74lvc1t45.kicad_sym")(options "")(descr ""))
 )
