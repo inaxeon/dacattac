@@ -1957,7 +1957,7 @@
     (property "Value" "P22" (at 69.85 26.035 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 68.58 45.085 0)
+    (property "Footprint" "hackrf:GSG-HEADER-2x13" (at 68.58 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 45.085 0)
