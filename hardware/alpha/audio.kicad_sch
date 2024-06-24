@@ -2770,7 +2770,7 @@
     (property "Value" "AUDIO_OUT" (at 253.365 113.9582 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 250.825 114.935 0)
+    (property "Footprint" "PJRAN2X1U01X:PJRAN2X1U01X" (at 250.825 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 250.825 114.935 0)
