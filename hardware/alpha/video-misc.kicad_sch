@@ -33,12 +33,6 @@
       (property "ki_description" "Power symbol creates a global label with name \"+3.3V_HACKRF\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3.3V_HACKRF_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3VP" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
       (symbol "+3.3V_HACKRF_0_1"
         (polyline
           (pts
@@ -63,6 +57,12 @@
           )
           (stroke (width 0) (type default))
           (fill (type none))
+        )
+      )
+      (symbol "+3.3V_HACKRF_1_0"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V_HACKRF" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -3781,10 +3781,10 @@
   (symbol (lib_id "Amplifier_Operational:AD8620") (at 147.32 154.305 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87d0bdc5-1668-4f02-8141-543352d9d991)
-    (property "Reference" "U6" (at 145.415 153.035 0)
+    (property "Reference" "U6" (at 146.05 153.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TLE2082" (at 145.415 155.575 0)
+    (property "Value" "TLE2082" (at 146.05 155.575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 147.32 154.305 0)
@@ -3807,7 +3807,7 @@
           (reference "U6") (unit 3)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
-          (reference "U16") (unit 3)
+          (reference "U6") (unit 3)
         )
       )
     )
