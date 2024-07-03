@@ -12,11 +12,13 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "74LVC1T45_1_1"
+    (symbol "74LVC1T45_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
         (stroke (width 0) (type default))
-        (fill (type background))
+        (fill (type none))
       )
+    )
+    (symbol "74LVC1T45_1_1"
       (pin power_in line (at -10.16 5.08 0) (length 2.54)
         (name "VCCA" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
