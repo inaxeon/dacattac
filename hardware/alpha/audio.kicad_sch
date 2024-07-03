@@ -1751,7 +1751,7 @@
     (property "Value" "10uF" (at 179.705 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 177.4952 92.075 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 177.4952 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 88.265 0)
