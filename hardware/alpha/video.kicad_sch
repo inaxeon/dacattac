@@ -4036,7 +4036,7 @@
     (property "Reference" "J2" (at 276.86 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "VIDEO OUT1" (at 270.51 80.645 0)
+    (property "Value" "VIDEO OUT" (at 270.51 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "MOLEX_73101:731010120" (at 278.765 84.455 0)
