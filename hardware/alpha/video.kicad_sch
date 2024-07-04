@@ -812,6 +812,46 @@
         )
       )
     )
+    (symbol "gndv:GNDV" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR033" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDV" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDV\" , analog ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDV_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDV_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDV" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1032,46 +1072,6 @@
       (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GNDA" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDA\" , analog ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GNDA_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GNDA_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GNDA" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3014,13 +3014,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 112.395 83.82 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 112.395 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0672eff3-2e07-4e6a-a1e5-d6f0e664a1d0)
-    (property "Reference" "#PWR023" (at 112.395 90.17 0)
+    (property "Reference" "#PWR0105" (at 112.395 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 112.395 87.63 0)
+    (property "Value" "GNDV" (at 112.395 88.265 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 112.395 83.82 0)
@@ -3033,7 +3033,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0102") (unit 1)
@@ -3042,13 +3042,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 259.715 94.615 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 259.715 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0acdcef0-0499-4fea-a279-7abd1b04e664)
-    (property "Reference" "#PWR039" (at 259.715 100.965 0)
+    (property "Reference" "#PWR0139" (at 259.715 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 259.715 98.425 0)
+    (property "Value" "GNDV" (at 259.715 98.425 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 259.715 94.615 0)
@@ -3061,7 +3061,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0134") (unit 1)
@@ -3185,13 +3185,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 104.14 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "gndv:GNDV") (at 104.14 144.145 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 1068abc2-08d5-4545-8eed-17aaf1e74ef0)
-    (property "Reference" "#PWR012" (at 104.14 150.495 0)
+    (property "Reference" "#PWR0111" (at 104.14 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 104.14 148.59 0)
+    (property "Value" "GNDV" (at 104.14 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 104.14 144.145 0)
@@ -3204,7 +3204,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0101") (unit 1)
@@ -3272,13 +3272,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 215.9 51.435 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 215.9 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1453c4a9-109f-43b7-863e-43103374eefc)
-    (property "Reference" "#PWR045" (at 215.9 57.785 0)
+    (property "Reference" "#PWR0130" (at 215.9 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 215.9 55.245 0)
+    (property "Value" "GNDV" (at 215.9 55.245 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 215.9 51.435 0)
@@ -3291,7 +3291,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0122") (unit 1)
@@ -3423,12 +3423,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 71.12 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 201ab4f3-94c7-4690-8213-c37301a9dd69)
     (property "Reference" "#PWR02" (at 71.12 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 71.12 148.59 0)
+    (property "Value" "GND" (at 71.12 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 71.12 144.145 0)
@@ -3710,13 +3710,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 144.145 94.615 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 144.145 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2fe2efd8-1927-4afb-b00d-0801e47de9b5)
-    (property "Reference" "#PWR028" (at 144.145 100.965 0)
+    (property "Reference" "#PWR0124" (at 144.145 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 143.51 99.06 0)
+    (property "Value" "GNDV" (at 144.145 98.425 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 144.145 94.615 0)
@@ -3729,7 +3729,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0110") (unit 1)
@@ -3886,12 +3886,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 78.74 83.185 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 39159fc5-2b5b-4bb5-8479-74ada6feb4d8)
     (property "Reference" "#PWR09" (at 78.74 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 78.74 88.265 0)
+    (property "Value" "GND" (at 78.74 86.995 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 78.74 83.185 0)
@@ -3945,13 +3945,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 189.865 80.645 180) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 189.865 80.645 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d6e4983-e972-4394-98b7-5a4cc8b368ac)
-    (property "Reference" "#PWR029" (at 189.865 74.295 0)
+    (property "Reference" "#PWR0132" (at 189.865 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 189.865 76.835 0)
+    (property "Value" "GNDV" (at 189.865 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 189.865 80.645 0)
@@ -3964,7 +3964,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0119") (unit 1)
@@ -3973,13 +3973,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 200.66 113.665 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 200.66 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d8102ab-77ea-4b53-9d75-f2b56f26dba1)
-    (property "Reference" "#PWR032" (at 200.66 120.015 0)
+    (property "Reference" "#PWR0134" (at 200.66 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 200.66 117.475 0)
+    (property "Value" "GNDV" (at 200.66 117.475 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 200.66 113.665 0)
@@ -3992,7 +3992,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0120") (unit 1)
@@ -4088,13 +4088,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 81.915 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "gndv:GNDV") (at 81.915 144.145 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 42082134-bdf7-45e0-88e3-0f1da85ebf1a)
-    (property "Reference" "#PWR015" (at 81.915 150.495 0)
+    (property "Reference" "#PWR0109" (at 81.915 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 81.915 148.59 0)
+    (property "Value" "GNDV" (at 81.915 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 81.915 144.145 0)
@@ -4107,7 +4107,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR093") (unit 1)
@@ -4175,13 +4175,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 222.25 51.435 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 222.25 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bd03a2d-65f3-4185-a41e-79a0d019d4a3)
-    (property "Reference" "#PWR044" (at 222.25 57.785 0)
+    (property "Reference" "#PWR0129" (at 222.25 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 222.25 55.245 0)
+    (property "Value" "GNDV" (at 222.25 55.245 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 222.25 51.435 0)
@@ -4194,7 +4194,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0125") (unit 1)
@@ -4204,12 +4204,12 @@
   )
 
   (symbol (lib_id "power:-5V") (at 88.265 144.145 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 55ba7089-50b9-4f28-98d7-39b8c393f233)
     (property "Reference" "#PWR011" (at 88.265 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "-5V" (at 88.265 148.59 0)
+    (property "Value" "-5V" (at 88.265 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 88.265 144.145 0)
@@ -4231,13 +4231,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 176.53 130.175 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "gndv:GNDV") (at 176.53 130.175 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 56440043-afbd-4545-a842-85b3ec99491d)
-    (property "Reference" "#PWR033" (at 176.53 136.525 0)
+    (property "Reference" "#PWR0136" (at 176.53 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 176.53 134.62 0)
+    (property "Value" "GNDV" (at 176.53 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 176.53 130.175 0)
@@ -4250,7 +4250,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0117") (unit 1)
@@ -4348,13 +4348,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 185.42 113.665 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 185.42 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b11e6d8-a113-4543-a0b4-b3b12ce35e5d)
-    (property "Reference" "#PWR030" (at 185.42 120.015 0)
+    (property "Reference" "#PWR0133" (at 185.42 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 185.42 117.475 0)
+    (property "Value" "GNDV" (at 185.42 117.475 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 185.42 113.665 0)
@@ -4367,7 +4367,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0118") (unit 1)
@@ -4642,13 +4642,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 129.54 71.755 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 129.54 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78efd303-6400-47b3-989e-dd29ebbcf798)
-    (property "Reference" "#PWR026" (at 129.54 78.105 0)
+    (property "Reference" "#PWR0126" (at 129.54 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 129.54 75.565 0)
+    (property "Value" "GNDV" (at 129.54 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 129.54 71.755 0)
@@ -4661,7 +4661,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0108") (unit 1)
@@ -4757,13 +4757,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 174.625 80.645 180) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 174.625 80.645 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 823c3909-08de-469e-b97c-0794f0c4447e)
-    (property "Reference" "#PWR016" (at 174.625 74.295 0)
+    (property "Reference" "#PWR0128" (at 174.625 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 174.625 76.835 0)
+    (property "Value" "GNDV" (at 174.625 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 174.625 80.645 0)
@@ -4776,7 +4776,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0116") (unit 1)
@@ -4872,13 +4872,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 220.345 80.645 180) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 220.345 80.645 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86e1866a-0bd6-4871-8a15-adb6f8659482)
-    (property "Reference" "#PWR035" (at 220.345 74.295 0)
+    (property "Reference" "#PWR0144" (at 220.345 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 220.345 76.835 0)
+    (property "Value" "GNDV" (at 220.345 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 220.345 80.645 0)
@@ -4891,7 +4891,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0124") (unit 1)
@@ -4900,13 +4900,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 263.525 149.86 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 263.525 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87bfd7df-a12f-44bc-93fa-a641467cf010)
-    (property "Reference" "#PWR048" (at 263.525 156.21 0)
+    (property "Reference" "#PWR0140" (at 263.525 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 263.525 154.305 0)
+    (property "Value" "GNDV" (at 263.525 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 263.525 149.86 0)
@@ -4919,7 +4919,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0135") (unit 1)
@@ -4957,13 +4957,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 278.765 90.805 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 278.765 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e68d176-3bf7-4718-bdfe-dbd16b990ab8)
-    (property "Reference" "#PWR041" (at 278.765 97.155 0)
+    (property "Reference" "#PWR0137" (at 278.765 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 278.765 94.615 0)
+    (property "Value" "GNDV" (at 278.765 94.615 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 278.765 90.805 0)
@@ -4976,7 +4976,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0136") (unit 1)
@@ -5129,13 +5129,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 159.385 80.645 180) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 159.385 80.645 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98dedb05-4a1a-424f-8cf5-761747a8b572)
-    (property "Reference" "#PWR017" (at 159.385 74.295 0)
+    (property "Reference" "#PWR0127" (at 159.385 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 159.385 76.835 0)
+    (property "Value" "GNDV" (at 159.385 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 159.385 80.645 0)
@@ -5148,7 +5148,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0112") (unit 1)
@@ -5157,13 +5157,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 231.14 113.665 0) (mirror y) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 231.14 113.665 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e79eee5-6b52-41cd-a533-11292b0a577d)
-    (property "Reference" "#PWR084" (at 231.14 120.015 0)
+    (property "Reference" "#PWR0143" (at 231.14 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 231.14 117.475 0)
+    (property "Value" "GNDV" (at 231.14 117.475 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 231.14 113.665 0)
@@ -5176,7 +5176,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0126") (unit 1)
@@ -5299,12 +5299,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 92.71 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid a300516a-78f0-45f0-87bd-97c766539921)
     (property "Reference" "#PWR010" (at 92.71 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 92.71 81.28 0)
+    (property "Value" "GND" (at 92.71 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 92.71 76.2 0)
@@ -5617,13 +5617,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 215.9 113.665 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 215.9 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6f75fa9-29db-42f7-ab7d-374fdf3fa658)
-    (property "Reference" "#PWR034" (at 215.9 120.015 0)
+    (property "Reference" "#PWR0142" (at 215.9 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 215.9 117.475 0)
+    (property "Value" "GNDV" (at 215.9 117.475 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 215.9 113.665 0)
@@ -5636,7 +5636,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0123") (unit 1)
@@ -5765,13 +5765,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 236.22 104.14 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 236.22 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c412c82d-d2a8-442a-b7cf-7f15840eb24e)
-    (property "Reference" "#PWR036" (at 236.22 110.49 0)
+    (property "Reference" "#PWR0141" (at 236.22 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 236.22 107.95 0)
+    (property "Value" "GNDV" (at 236.22 108.585 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 236.22 104.14 0)
@@ -5784,7 +5784,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0127") (unit 1)
@@ -5822,13 +5822,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 248.92 151.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "gndv:GNDV") (at 248.92 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid c6879cbd-25aa-4539-97c8-a42aaa432d4e)
-    (property "Reference" "#PWR047" (at 248.92 157.48 0)
+    (property "Reference" "#PWR0145" (at 248.92 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 248.92 155.575 0)
+    (property "Value" "GNDV" (at 248.92 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 248.92 151.13 0)
@@ -5841,7 +5841,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0130") (unit 1)
@@ -6001,13 +6001,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 102.235 86.995 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 102.235 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cee0d93d-431e-4386-a5de-635db00ffcf5)
-    (property "Reference" "#PWR022" (at 102.235 93.345 0)
+    (property "Reference" "#PWR0108" (at 102.235 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 102.235 90.805 0)
+    (property "Value" "GNDV" (at 102.235 90.805 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 102.235 86.995 0)
@@ -6020,7 +6020,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0100") (unit 1)
@@ -6091,13 +6091,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 93.345 108.585 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 93.345 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7b9a788-b462-48ef-be95-c47b6f9a8582)
-    (property "Reference" "#PWR021" (at 93.345 114.935 0)
+    (property "Reference" "#PWR0123" (at 93.345 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 93.345 112.395 0)
+    (property "Value" "GNDV" (at 93.345 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 93.345 108.585 0)
@@ -6110,7 +6110,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR097") (unit 1)
@@ -6148,13 +6148,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 118.11 147.32 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 118.11 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d95691a0-2417-4e22-9dd9-426fe21fab7e)
-    (property "Reference" "#PWR020" (at 118.11 153.67 0)
+    (property "Reference" "#PWR0112" (at 118.11 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 118.11 151.765 0)
+    (property "Value" "GNDV" (at 118.11 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 118.11 147.32 0)
@@ -6167,7 +6167,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0103") (unit 1)
@@ -6205,13 +6205,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 150.495 107.95 0) (mirror y) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 150.495 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbc7e8dd-cd47-4247-927f-d267f3e02e60)
-    (property "Reference" "#PWR019" (at 150.495 114.3 0)
+    (property "Reference" "#PWR0122" (at 150.495 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 150.495 111.76 0)
+    (property "Value" "GNDV" (at 150.495 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 150.495 107.95 0)
@@ -6224,7 +6224,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0111") (unit 1)
@@ -6320,13 +6320,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 205.105 80.645 180) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 205.105 80.645 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e62259a7-bae0-4875-860a-03887b65363f)
-    (property "Reference" "#PWR031" (at 205.105 74.295 0)
+    (property "Reference" "#PWR0131" (at 205.105 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 205.105 76.835 0)
+    (property "Value" "GNDV" (at 205.105 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 205.105 80.645 0)
@@ -6339,7 +6339,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0121") (unit 1)
@@ -6348,13 +6348,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 237.49 132.715 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 237.49 132.715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7554492-efb1-4e52-a606-a49227fa937a)
-    (property "Reference" "#PWR046" (at 237.49 139.065 0)
+    (property "Reference" "#PWR0146" (at 237.49 139.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 237.49 137.16 0)
+    (property "Value" "GNDV" (at 237.49 136.525 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 237.49 132.715 0)
@@ -6367,7 +6367,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0128") (unit 1)
@@ -6406,12 +6406,12 @@
   )
 
   (symbol (lib_id "power:-5VA") (at 119.38 89.535 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ec9a697c-ff70-49b2-b07a-769bdcc3f225)
     (property "Reference" "#PWR025" (at 119.38 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "-5VA" (at 119.38 93.98 0)
+    (property "Value" "-5VA" (at 119.38 93.345 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 119.38 89.535 0)
@@ -6433,13 +6433,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 76.2 144.145 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 76.2 144.145 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed0a9b6a-57e8-4a98-b231-372c4ecb47bf)
-    (property "Reference" "#PWR01" (at 76.2 150.495 0)
+    (property "Reference" "#PWR0110" (at 76.2 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 76.2 148.59 0)
+    (property "Value" "GNDV" (at 76.2 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 76.2 144.145 0)
@@ -6452,7 +6452,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR090") (unit 1)
@@ -6461,13 +6461,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 93.98 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "gndv:GNDV") (at 93.98 144.145 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ed8f0922-21b8-49b3-9c44-953607dd8468)
-    (property "Reference" "#PWR013" (at 93.98 150.495 0)
+    (property "Reference" "#PWR0121" (at 93.98 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 93.98 148.59 0)
+    (property "Value" "GNDV" (at 93.98 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 93.98 144.145 0)
@@ -6480,7 +6480,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR099") (unit 1)
@@ -6576,13 +6576,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 165.735 107.95 0) (mirror y) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 165.735 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbb361d6-a6a6-4fc7-ad79-8af4da49d44b)
-    (property "Reference" "#PWR018" (at 165.735 114.3 0)
+    (property "Reference" "#PWR0135" (at 165.735 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 165.735 111.76 0)
+    (property "Value" "GNDV" (at 165.735 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 165.735 107.95 0)
@@ -6595,7 +6595,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0113") (unit 1)
@@ -6604,13 +6604,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 131.445 89.535 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 131.445 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc238a2d-aa93-4347-93ac-01139e1d5f4a)
-    (property "Reference" "#PWR024" (at 131.445 95.885 0)
+    (property "Reference" "#PWR0125" (at 131.445 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 131.445 93.345 0)
+    (property "Value" "GNDV" (at 131.445 93.345 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 131.445 89.535 0)
@@ -6623,7 +6623,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0109") (unit 1)
@@ -6632,13 +6632,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 259.715 76.835 0) (unit 1)
+  (symbol (lib_id "gndv:GNDV") (at 259.715 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff27abae-1306-4af5-a1be-abfe69614b76)
-    (property "Reference" "#PWR038" (at 259.715 83.185 0)
+    (property "Reference" "#PWR0138" (at 259.715 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 259.715 80.645 0)
+    (property "Value" "GNDV" (at 259.715 80.645 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 259.715 76.835 0)
@@ -6651,7 +6651,7 @@
     (instances
       (project "dacattac-alpha"
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b4bbface-dd1a-4873-ab51-f35caad404be"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
         (path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/e1e307fe-d49b-45b6-b177-774a7a482979"
           (reference "#PWR0133") (unit 1)
