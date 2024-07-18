@@ -5247,7 +5247,7 @@
     (property "Value" "MCP47FEB22A0-E/ST\n" (at 227.965 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm" (at 241.3 148.59 0)
+    (property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" (at 241.3 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005375A.pdf" (at 187.96 134.62 90)
