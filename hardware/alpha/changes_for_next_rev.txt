@@ -1,0 +1,11 @@
+SMT soldering rig holes wrong size
+Silkscreen - normalise line thickness
+Make sure values are on silkscreen
+C10 SS ref missing
+Add LED(s)
+Logo and device description
+XSMT from 8V may be wrong
+Need holes under inductors
+C49 a bit close to L14
+Single inductor footprints may have wrong pinout
+2DIR pin is wrong

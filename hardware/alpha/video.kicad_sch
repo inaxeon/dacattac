@@ -5932,7 +5932,7 @@
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cba46726-5c3b-4170-86bb-fec8b2c00319)
     (property "Reference" "R27" (at 265.43 125.095 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 263.525 127 90)
       (effects (font (size 1.27 1.27)) (justify left))
