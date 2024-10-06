@@ -8,4 +8,12 @@ XSMT from 8V may be wrong
 Need holes under inductors
 C49 a bit close to L14
 Single inductor footprints may have wrong pinout
-2DIR pin is wrong
+2DIR pin on 16T245 is wrong
+DIR on 74LVC1T45 is also wrong
+Larger 16T245 ?
+Series termination on DAC clocks before and after buffer
+DAC I2C addr clashing with HackRF
+Add bit to toggle output. Switch on shield?
+R27 connected to wrong place on output
+On-board TCXO
+Add power input
