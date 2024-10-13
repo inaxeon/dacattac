@@ -16,4 +16,8 @@ DAC I2C addr clashing with HackRF
 Add bit to toggle output. Switch on shield?
 R27 connected to wrong place on output
 On-board TCXO
+	- NOTE: MAKE SURE THE TCXO DOESN'T BLOW THE CPLD ON REGULAR BUILDS OR VICE VERSA!
 Add power input
+	- With ORing chip
+Allow regulators to be bypassed
+Try swap op-amps for LMH6714MF/NOPB
