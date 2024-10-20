@@ -21,7 +21,7 @@ Add power input
 	- With ORing chip
 Allow regulators to be bypassed
 Try swap op-amps for LMH6714MF/NOPB
-
+Caps on input from HackRF?
 
 To check before next PCB is cut:
 2N7002 on sync mod
