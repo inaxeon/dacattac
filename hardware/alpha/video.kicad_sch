@@ -9389,7 +9389,6 @@
 		)
 	)
 	(symbol
-		(lib_name "KJL_ADJ:KJL_ADJ_SGL")
 		(lib_id "KJL_ADJ:KJL_ADJ_SGL")
 		(at 187.325 86.995 90)
 		(unit 1)
@@ -13484,7 +13483,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a75584d1-2951-4f71-b431-f4496768db5d")
 		(property "Reference" "#PWR08"
 			(at 78.74 61.595 0)
@@ -13496,7 +13494,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 78.74 52.705 0)
+			(at 78.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

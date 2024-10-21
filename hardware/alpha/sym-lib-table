@@ -11,4 +11,6 @@
   (lib (name "74lvc1t45")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/74lvc1t45.kicad_sym")(options "")(descr ""))
   (lib (name "gndv")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/gndv.kicad_sym")(options "")(descr ""))
   (lib (name "LM66200")(type "KiCad")(uri "${KIPRJMOD}/LM66200.kicad_sym")(options "")(descr ""))
+  (lib (name "+VDAC")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/+vdac.kicad_sym")(options "")(descr ""))
+  (lib (name "-VDAC")(type "KiCad")(uri "${KIPRJMOD}/thirdparty-syms/-vdac.kicad_sym")(options "")(descr ""))
 )

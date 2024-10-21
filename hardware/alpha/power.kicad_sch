@@ -133,6 +133,342 @@
 				)
 			)
 		)
+		(symbol "+5V_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "+VDAC:+VDAC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR079"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+VDAC"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VDAC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+VDAC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VDAC_1_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+VDAC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "-VDAC:-VDAC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-VDAC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-VDAC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-VDAC_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-VDAC_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "Amplifier_Operational:AD8620"
 			(pin_names
 				(offset 0.127)
@@ -4679,126 +5015,6 @@
 				)
 			)
 		)
-		(symbol "power:+8V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+8V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+8V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+8V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+8V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+8V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:-5V"
 			(power)
 			(pin_names
@@ -4991,102 +5207,6 @@
 				)
 			)
 		)
-		(symbol "power:-8V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-8V"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-8V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-8V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "-8V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-8V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -5167,6 +5287,126 @@
 					(at 0 0 270)
 					(length 0) hide
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5514,6 +5754,12 @@
 		(color 0 0 0 0)
 		(uuid "e970d796-81b0-47a4-b0db-d27240057c4f")
 	)
+	(junction
+		(at 159.385 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff228955-70e3-41b7-b7f6-56c943067bee")
+	)
 	(wire
 		(pts
 			(xy 60.96 173.99) (xy 65.405 173.99)
@@ -5796,6 +6042,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.035 161.29) (xy 159.385 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206fbb8f-fffe-4b22-86ac-db3b1303b10c")
+	)
+	(wire
+		(pts
 			(xy 93.345 177.8) (xy 93.345 173.99)
 		)
 		(stroke
@@ -6053,6 +6309,16 @@
 			(type default)
 		)
 		(uuid "4306a15d-692e-4747-ae8e-4ccc6bbe4dec")
+	)
+	(wire
+		(pts
+			(xy 167.005 161.29) (xy 167.005 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4662d042-b58e-4232-9498-b075e4b3e0e0")
 	)
 	(wire
 		(pts
@@ -6826,6 +7092,16 @@
 	)
 	(wire
 		(pts
+			(xy 159.385 158.115) (xy 159.385 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7a58d9-52a4-4d05-a3ba-0f4d2a8ad29e")
+	)
+	(wire
+		(pts
 			(xy 238.76 147.32) (xy 238.76 148.59)
 		)
 		(stroke
@@ -6883,6 +7159,16 @@
 			(type default)
 		)
 		(uuid "b14d6825-cf66-47b6-853c-bd540996c65a")
+	)
+	(wire
+		(pts
+			(xy 159.385 147.32) (xy 159.385 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2146375-bb89-4977-a66f-4a631f1bee7c")
 	)
 	(wire
 		(pts
@@ -6983,6 +7269,16 @@
 			(type default)
 		)
 		(uuid "bb3481de-96b2-4fca-9d5b-202e6b5c816c")
+	)
+	(wire
+		(pts
+			(xy 159.385 161.29) (xy 167.005 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd001fa5-deef-4ebc-9548-64d423e57ad2")
 	)
 	(wire
 		(pts
@@ -7266,6 +7562,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.035 158.115) (xy 153.035 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dceb8dfb-996c-460e-9109-a73f0e7a3edd")
+	)
+	(wire
+		(pts
 			(xy 44.45 162.56) (xy 65.405 162.56)
 		)
 		(stroke
@@ -7333,6 +7639,16 @@
 			(type default)
 		)
 		(uuid "e5476d50-0e7f-4301-b65e-565635651a48")
+	)
+	(wire
+		(pts
+			(xy 153.035 147.32) (xy 153.035 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f6c5ce-2308-43d2-b19e-42f1ecb765d2")
 	)
 	(wire
 		(pts
@@ -7754,6 +8070,71 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-VDAC:-VDAC")
+		(at 258.445 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "040fcf89-3a3b-4830-8f16-1a8864e579ce")
+		(property "Reference" "#PWR033"
+			(at 258.445 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDAC"
+			(at 258.445 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 258.445 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 258.445 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDAC\""
+			(at 258.445 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "139612c1-0967-4e2b-88e9-905a223a9a93")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "#PWR033")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9119,6 +9500,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 159.385 154.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4670b10c-e543-4162-9fa0-f848793e7e46")
+		(property "Reference" "R64"
+			(at 161.925 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 158.75 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.607 154.305 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 159.385 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 159.385 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bf14252-71a7-4e47-b3a3-69ca69722c4e")
+		)
+		(pin "1"
+			(uuid "aab72cd4-686f-4a6d-b26f-cb54e1a38448")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 115.57 0)
 		(unit 1)
@@ -10177,6 +10627,71 @@
 			(project "dacattac-alpha"
 				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
 					(reference "L17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 167.005 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e1ed59f-75ec-41dc-aaf2-b70a1c982871")
+		(property "Reference" "#PWR034"
+			(at 167.005 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 167.005 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.005 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.005 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 167.005 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3631313-1cd7-4476-9016-087586fd46d4")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11322,6 +11837,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 153.035 154.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8da9f7b1-af92-41f4-828b-888dc0e03da2")
+		(property "Reference" "L2"
+			(at 151.13 155.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NF"
+			(at 154.94 155.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.035 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.035 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 153.035 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "694a7d66-d41e-4535-987f-50f33a4542ae")
+		)
+		(pin "1"
+			(uuid "3d9dadfb-76da-44cc-ac88-da9f9e10f7ce")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 80.645 183.515 90)
 		(unit 1)
@@ -11383,6 +11967,73 @@
 			(project ""
 				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 153.035 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a925fd7-ccf7-4084-b2d2-99dd447845ba")
+		(property "Reference" "#PWR036"
+			(at 153.035 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.035 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.035 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.035 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 153.035 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17ec93b-84d8-4181-b35a-cc50105eb268")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12019,71 +12670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-8V")
-		(at 44.45 177.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adf20688-57a2-428a-93e9-f68c7cdf4397")
-		(property "Reference" "#PWR016"
-			(at 44.45 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-8V"
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "360e1407-7948-4da1-804d-6884e64f17d7")
-		)
-		(instances
-			(project "dacattac-alpha"
-				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 70.485 103.505 0)
 		(unit 1)
@@ -12289,71 +12875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+8V")
-		(at 44.45 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4f3890d-42f4-4640-ab99-090efefb8aa3")
-		(property "Reference" "#PWR015"
-			(at 44.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+8V"
-			(at 44.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbd76952-73ac-4c78-a55a-3b3c6c1285bd")
-		)
-		(instances
-			(project "dacattac-alpha"
-				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 214.63 110.49 180)
 		(unit 1)
@@ -12486,6 +13007,72 @@
 			(project "dacattac-alpha"
 				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
 					(reference "L22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "+VDAC:+VDAC")
+		(at 159.385 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb58cbd5-6a3d-4d4c-a07d-8b7ec4cf4fee")
+		(property "Reference" "#PWR035"
+			(at 163.195 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDAC"
+			(at 159.385 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDAC\""
+			(at 159.385 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd02d8a7-21c0-428a-b8e3-93aa276fad75")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13042,6 +13629,71 @@
 		)
 	)
 	(symbol
+		(lib_id "-VDAC:-VDAC")
+		(at 44.45 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2a135b0-9089-454b-8a92-2a7ac2f30b09")
+		(property "Reference" "#PWR016"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDAC"
+			(at 44.45 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDAC\""
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa1949a8-3fdb-411b-80cb-30f618bf18e1")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "+3.3v_hackrf:+3.3V_HACKRF")
 		(at 97.79 81.28 0)
 		(unit 1)
@@ -13108,16 +13760,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+8V")
-		(at 258.445 26.67 0)
+		(lib_id "+VDAC:+VDAC")
+		(at 44.45 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6f1bbdf-b344-4b67-b63d-f6961eedd487")
-		(property "Reference" "#PWR049"
-			(at 258.445 30.48 0)
+		(uuid "d45cfdbd-9ecd-4067-9896-3f27be190e05")
+		(property "Reference" "#PWR015"
+			(at 48.26 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13125,8 +13777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+8V"
-			(at 258.445 22.225 0)
+		(property "Value" "+VDAC"
+			(at 44.45 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13134,7 +13786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 258.445 26.67 0)
+			(at 44.45 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13143,7 +13795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.445 26.67 0)
+			(at 44.45 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13151,8 +13803,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 258.445 26.67 0)
+		(property "Description" "Power symbol creates a global label with name \"+VDAC\""
+			(at 44.45 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,12 +13813,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90474f3a-df06-4dfd-9b17-6dbe2f422cec")
+			(uuid "de6668e3-d794-418b-ad32-0b8337876015")
 		)
 		(instances
-			(project "dacattac-alpha"
+			(project ""
 				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
-					(reference "#PWR049")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13578,72 +14230,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-8V")
-		(at 258.445 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eba097b0-90e8-4899-b41f-8e20d435de29")
-		(property "Reference" "#PWR050"
-			(at 258.445 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-8V"
-			(at 258.445 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 258.445 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 258.445 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 258.445 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "199981cb-a9b8-4d0c-be5b-4cc3a87cfa6d")
-		)
-		(instances
-			(project "dacattac-alpha"
-				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
 		(at 67.31 80.01 0)
@@ -13710,6 +14296,71 @@
 		)
 	)
 	(symbol
+		(lib_id "+VDAC:+VDAC")
+		(at 258.445 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eda4934e-5a78-4e6f-a930-ebf7e0be56f9")
+		(property "Reference" "#PWR031"
+			(at 262.255 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDAC"
+			(at 258.445 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 258.445 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 258.445 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDAC\""
+			(at 258.445 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0547d51-ec8c-414a-a74b-e3c83326b37d")
+		)
+		(instances
+			(project ""
+				(path "/487245ca-0c1f-4f9d-bc99-20c8f558090f/b8114b5f-896b-4ea4-b003-c1721b486c01"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:KF33BDT")
 		(at 67.31 70.485 0)
 		(unit 1)
@@ -13727,7 +14378,7 @@
 				)
 			)
 		)
-		(property "Value" "KF33BDT"
+		(property "Value" "KF50BDT"
 			(at 67.31 66.04 0)
 			(effects
 				(font
