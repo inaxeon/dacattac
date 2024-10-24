@@ -7250,6 +7250,17 @@
 		)
 		(uuid "33241978-ef43-4b21-9c7f-2c778dbf1627")
 	)
+	(label "ADAC+"
+		(at 73.66 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "345bf27b-9dcd-408f-8a62-40e1f8a00da0")
+	)
 	(label "AD8"
 		(at 22.86 107.315 0)
 		(fields_autoplaced yes)
@@ -7381,6 +7392,17 @@
 			(justify left bottom)
 		)
 		(uuid "8a7b7ad0-0aac-4a3a-9fd4-323832bf2aad")
+	)
+	(label "ADAC-"
+		(at 73.025 122.555 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "913b29e3-516f-4510-a120-aaecaa0d3cf3")
 	)
 	(label "AD[0..15]"
 		(at 20.32 73.66 0)
